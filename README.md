@@ -2,8 +2,7 @@
 
 This folder contains Matlab codes for the IEEE Internet of Things Journal paper titled "Multiuser Scheduling in Centralized Cognitive Radio Networks: A Multi-Armed Bandit Approach". The reader can find the required codes related to the algorithm provided in the paper. All the main files and corresponding functions include necessary in-line comments to ease following the algorithms through the codes.
 
-Below please find the content provided in each folder:
-
+The main parameters of the three CPS system need first go through the KalmanFilter.m to compute the steady state error covariance and \beta_c. Then, the channel and power level parameters can be set in the J-CAP algorithm folder and then with the input from the output of Kalman filter the algorithms runs over T time horizon. 
 
 ### Abstract 
 
